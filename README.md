@@ -13,6 +13,7 @@
 Perform Hierarchical Classfication to map data instance with above mentioned features to to Cat1, Cat2 & Cat3
 
 #### Features used 
-
->>X = [Title, Text]
->>Y = [Cat1, Cat2, Cat3]
+```
+X = [Title, Text]
+Y = [Cat1, Cat2, Cat3]
+```
