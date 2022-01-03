@@ -1,3 +1,6 @@
+classifier/ filter=lfs diff=lfs merge=lfs -text
+pretrained/ filter=lfs diff=lfs merge=lfs -text
+pretraineds/ filter=lfs diff=lfs merge=lfs -text
 *.joblib filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.html filter=lfs diff=lfs merge=lfs -text
