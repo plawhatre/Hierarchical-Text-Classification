@@ -16,4 +16,9 @@ Cat2: Second level cat
 
 Cat3: third level cat
 #### Task
-Perform Hierarchical Classfication to map to Cat1, Cat2 & Cat3
+Perform Hierarchical Classfication to map data instance with above mentioned features to to Cat1, Cat2 & Cat3
+
+#### Features used 
+
+X = [Title, Text]
+Y = [Cat1, Cat2, Cat3]
