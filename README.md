@@ -53,6 +53,3 @@ Y3 <- Cat3 predictions
 | Cat1 | 0.84               | 0.84            | 0.84              | 0.84             |
 | Cat2 | 0.73               | 0.72            | 0.72              | 0.72             |
 | Cat3 | 0.67               | 0.64            | 0.64              | 0.64             |
-
-<img src="./classifier/report/cm1.html" alt="alt text" title="image Title" />
-<a href="./classifier/report/cm1.html" rel="some text">![Foo]("./classifier/report/cm1.html")</a>
