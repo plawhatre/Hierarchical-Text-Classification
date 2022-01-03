@@ -46,3 +46,10 @@ b. Feed this to a ```Dense layer``` and optimize on ```Cat2``` variable (with fr
 X3 = X2 | Y2
 Y3 <- Cat3 predictions
 ```
+
+### Results
+|      | Weighted Precision | Weighted Recall | Weighted F1 score | Overall Accuracy |
+|------|--------------------|-----------------|-------------------|------------------|
+| Cat1 | 0.84               | 0.84            | 0.84              | 0.84             |
+| Cat2 | 0.73               | 0.72            | 0.72              | 0.72             |
+| Cat3 | 0.67               | 0.64            | 0.64              | 0.64             |
