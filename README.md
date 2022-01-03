@@ -58,4 +58,5 @@ Y3 <- Cat3 predictions
 | Cat2 | 0.73               | 0.72            | 0.72              | 0.72             |
 | Cat3 | 0.67               | 0.64            | 0.64              | 0.64             |
 
+<h3 align="center">Confusion Matrix for Cat1</h3>
 <img src="./classifier/report/cm1.png" alt="Confusion Matrix for Cat1" title="Confusion Matrix for Cat1" />
