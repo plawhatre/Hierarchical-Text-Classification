@@ -14,14 +14,5 @@ Perform Hierarchical Classfication to map data instance with above mentioned fea
 
 #### Features used 
 
-$$X = [Title, Text]$$
-
-$$
-Y = [Cat1, Cat2, Cat3]
-$$
-
-<div class="math">
-\begin{equation}
-  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}  
-\end{equation}
-</div>
+>>X = [Title, Text]
+>>Y = [Cat1, Cat2, Cat3]
