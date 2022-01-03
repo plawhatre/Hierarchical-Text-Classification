@@ -17,6 +17,10 @@ Perform Hierarchical Classfication to map data instance with above mentioned fea
 X = [Title, Text]
 Y = [Cat1, Cat2, Cat3]
 ```
+Data instances where a Category in ```Cat2``` or ```Cat3``` was less than 20 or 10 respectively was groupped under ```rare``` class.
+
+This was followed by ```Data Augmentation``` for the rare class group.
+
 ### Model Architecture
 The model consists of a ```BERT``` exctractor followed by 3 sequential ```Dense``` layer grown in three stages
 
