@@ -1,7 +1,7 @@
 # <center>Hierarchical-Text-Classification</center>
 #### Data Description
-Productid: Unique ID of product
-Title: Title of review
+Productid: Unique ID of product\n
+Title: Title of review\n
 userId: unique ID of user
 Time: timestamp of review
 Text: Review of product given by user
