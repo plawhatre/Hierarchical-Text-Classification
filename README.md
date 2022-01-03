@@ -14,6 +14,6 @@ Perform Hierarchical Classfication to map data instance with above mentioned fea
 
 #### Features used 
 
-$X = [Title, Text]$
+$$X = [Title, Text]$$
 
 Y = [Cat1, Cat2, Cat3]
