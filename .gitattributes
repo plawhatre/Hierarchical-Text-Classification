@@ -13,3 +13,5 @@ pretraineds/ filter=lfs diff=lfs merge=lfs -text
 *.7f2721073f19841be16f41b0a70b600ca6b880c8f3df6f3535cbc704371bdfa4 filter=lfs diff=lfs merge=lfs -text
 *.20430bd8e10ef77a7d2977accefe796051e01bc2fc4aa146bc862997a1a15e79 filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
+*.swo filter=lfs diff=lfs merge=lfs -text
+*.swp filter=lfs diff=lfs merge=lfs -text
