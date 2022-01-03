@@ -17,3 +17,8 @@ Perform Hierarchical Classfication to map data instance with above mentioned fea
 X = [Title, Text]
 Y = [Cat1, Cat2, Cat3]
 ```
+### Model Architecture
+The model consists of a BERT exctractor followed by 3 sequential Dense layer grown in three stages
+
+##### Stage 1
+dknsds
