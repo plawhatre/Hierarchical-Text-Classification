@@ -1,0 +1,11 @@
+*.joblib filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.91b885ab15d631bf9cee9dc9d25ece0afd932f2f5130eba28f2055b2220c0333 filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.lock filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.d789d64ebfe299b0e416afc4a169632f903f693095b4629a7ea271d5a0cf2c99 filter=lfs diff=lfs merge=lfs -text
+*.7f2721073f19841be16f41b0a70b600ca6b880c8f3df6f3535cbc704371bdfa4 filter=lfs diff=lfs merge=lfs -text
+*.20430bd8e10ef77a7d2977accefe796051e01bc2fc4aa146bc862997a1a15e79 filter=lfs diff=lfs merge=lfs -text
