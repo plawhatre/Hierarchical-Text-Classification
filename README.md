@@ -52,6 +52,38 @@ b. Feed this to a ```Dense layer``` and optimize on ```Cat2``` variable (with fr
 X3 = X2 | Y2
 Y3 <- Cat3 predictions
 ```
+### Sample Test
+
+Input
+
+```
+title = 'amazing product'
+text = 'my hairs have gained volume after 2 weeks into using this product'
+cprint(model.out_of_sample_prediction(title, text), 'blue')
+```
+
+Output
+```
+>> [array(['beauty'], dtype=object), 
+  array(['hair care'], dtype=object), 
+  array(['massage relaxation'], dtype=object)]
+```
+
+Input
+
+```
+title = 'do not buy this'
+text = 'got broken in 2 weeks'
+cprint(model.out_of_sample_prediction(title, text), 'blue')
+```
+
+Output 
+
+```
+>> [array(['baby products'], dtype=object), 
+  array(['games'], dtype=object), 
+  array(['rare'], dtype=object)]
+```
 
 ### Results
 |      | Weighted Precision | Weighted Recall | Weighted F1 score | Overall Accuracy |
