@@ -21,4 +21,10 @@ Y = [Cat1, Cat2, Cat3]
 The model consists of a BERT exctractor followed by 3 sequential Dense layer grown in three stages
 
 ##### Stage 1
-dknsds
+a. Extract convert ```title``` and ```text into vectors using BERT layer
+b. Feed this to a dense layer and optimize on ```Cat1``` variable.
+
+```
+X1 = X_title | X_text
+Y1 <- Cat1
+```
