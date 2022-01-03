@@ -55,4 +55,4 @@ Y3 <- Cat3 predictions
 | Cat3 | 0.67               | 0.64            | 0.64              | 0.64             |
 
 <img src="./classifier/report/cm1.html" alt="alt text" title="image Title" />
-
+<a href="./classifier/report/cm1.html" rel="some text">![Foo]("./classifier/report/cm1.html")</a>
