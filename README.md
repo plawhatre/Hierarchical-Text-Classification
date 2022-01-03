@@ -1,4 +1,4 @@
-# <center>Hierarchical-Text-Classification</center>
+<h1 align="center">Hierarchical-Text-Classification</h1>
 #### Data Description
 | Productid:  | Unique ID of product            |   
 |-------------|---------------------------------|
@@ -58,5 +58,14 @@ Y3 <- Cat3 predictions
 | Cat2 | 0.73               | 0.72            | 0.72              | 0.72             |
 | Cat3 | 0.67               | 0.64            | 0.64              | 0.64             |
 
-<h3 align="center">Confusion Matrix for Cat1</h3>
+<h4 align="center">Confusion Matrix and Loss Curve for Cat1</h4>
 <img src="./classifier/report/cm1.png" alt="Confusion Matrix for Cat1" title="Confusion Matrix for Cat1" />
+<img src="./classifier/report/l1.png" alt="Loss Curve for Cat1" title="Loss Curve for Cat1" />
+
+<h4 align="center">Confusion Matrix and Loss Curve for Cat2</h4>
+<img src="./classifier/report/cm2.png" alt="Confusion Matrix for Cat2" title="Confusion Matrix for Cat2" />
+<img src="./classifier/report/l2.png" alt="Loss Curve for Cat2" title="Loss Curve for Cat2" />
+
+<h4 align="center">Confusion Matrix and Loss Curve for Cat3</h4>
+<img src="./classifier/report/cm3.png" alt="Confusion Matrix for Cat3" title="Confusion Matrix for Cat3" />
+<img src="./classifier/report/l3.png" alt="Loss Curve for Cat3" title="Loss Curve for Cat3" />
