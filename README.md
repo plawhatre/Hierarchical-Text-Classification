@@ -24,10 +24,10 @@ Data instances where the count of a Category in ```Cat2``` or ```Cat3``` was les
 This was followed by ```Data Augmentation``` for the rare class group.
 
 ### Model Architecture
-The model consists of a ```BERT``` exctractor followed by 3 sequential ```Dense``` layer each grown subsequently in three stages
+The model consists of a ```distil-BERT``` followed by 3 sequential ```Dense``` layer each grown subsequently in three stages
 
 ##### Stage 1 
-a. Extract convert ```title``` and ```text``` into vectors using ```BERT layer```
+a. Convert ```title``` and ```text``` into vectors using ```distil-BERT``` model
 b. Feed this to a ```Dense layer``` and optimize on ```Cat1``` variable (with frozon ```model 2 & 3 layers```)
 
 ```
