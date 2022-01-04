@@ -27,7 +27,7 @@ This was followed by ```Data Augmentation``` for the rare class group.
 The model consists of a ```distil-BERT``` followed by 3 sequential ```Dense``` layer each grown subsequently in three stages
 
 ##### Stage 1 
-a. Convert ```title``` and ```text``` into vectors using ```distil-BERT``` model
+a. Get feature representation ```title``` and ```text``` using ```distil-BERT``` model
 b. Feed this to a ```Dense layer``` and optimize on ```Cat1``` variable (with frozon ```model 2 & 3 layers```)
 
 ```
